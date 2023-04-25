@@ -1,0 +1,189 @@
+/* Globales */
+
+:root {
+    --fuenteHeading: 'Oswald', sans-serif;
+    --fuenteParrafos: 'Schibsted Grotesk', sans-serif;
+}
+
+
+* {margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 1 rem = 10px*/
+    
+}
+
+body {
+    
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(241,220,212,1) 35%, rgba(193,157,98,1) 100%);
+    height: 100vh;
+    
+}
+
+/* Header */
+
+.headerLogo {
+    background-color: black;
+    text-align: center;
+}
+
+.headerLogo img {
+    border-radius: 30%;
+    
+}
+.headerNav {
+    display: flex;
+    background-color: black;
+    justify-content:space-around;
+    padding-bottom: 5px;
+    
+    
+}
+.headerNav a {
+    font-family: var(--fuenteHeading);
+    color: beige;
+    font-size: 3rem;
+}
+
+
+/* contendor index */
+
+.contenedor {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-evenly;
+    max-width: 100%;
+    
+    
+}
+
+.contenedor_texto h1{
+    font-family: var(--fuenteHeading);
+    font-size: 8rem;
+    font-weight: 10px;
+    text-shadow: 4px 4px 30px brown;
+    
+}
+
+.contenedor_texto h2{
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
+.contenedor_texto p {
+    font-family: var(--fuenteParrafos);
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+
+.contenedor_foto img {
+    width: 100%;
+    height: 400px;
+    border-radius: 50%;
+    
+}
+
+.contenedor_foto img:hover{
+    box-shadow: 0 0 12px 15px brown;
+}
+
+
+/* Página de contacto*/
+
+.texto_contacto h3 {
+    font-family: var(--fuenteHeading);
+    font-size: 3rem;
+    color: brown;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.formulario {
+       
+    text-align: center;
+}
+.formulario div label {
+    font-family: var(--fuenteParrafos);
+    font-size: 2rem;
+}
+.formulario div {
+    padding: 1rem;
+}
+
+/*pagina productos */
+
+.titulo_producto {
+    font-family: var(--fuenteHeading);
+    font-size: 3rem;
+    color:brown;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+
+
+
+/*pagina servicios*/
+
+.titulo_servicios {
+    font-family: var(--fuenteHeading);
+    font-size: 3rem;
+    color:brown;
+    text-align: center;
+    padding-top: 2rem;
+    
+}
+
+/*pagina productos */
+
+/* Estilos CSS para la tarjeta de compra */
+.tarjeta {
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0 auto;
+}
+.imagen {
+    width: 100%;
+    height: 170px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    
+}
+.titulo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.descripcion {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+.precio {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.boton-comprar {
+    display: block;
+    width: 100%;
+    padding-right: 2px; 
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
